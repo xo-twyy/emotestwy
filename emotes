@@ -480,6 +480,7 @@ end
 --unreleased emotes
 AddEmote("Arm Wave", 5915773155)
 AddEmote("Head Banging", 5915779725)
+AddEmote("intrusive awkward wave", 85665834724929)
 
 
 --finished loading

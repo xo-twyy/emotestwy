@@ -479,6 +479,7 @@ for i, Emote in pairs(totalEmotes) do
 end
 
 --unreleased emotes
+	AddEmote("intrusive awkward wave", 85665834724929, 0)
 
 --finished loading
 Loading:Destroy()

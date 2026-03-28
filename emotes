@@ -224,32 +224,6 @@ SearchBar.Parent = BackFrame
         
 
 
-        
-		-- twy watermarks 
-
-
-local MadeByLabel = Instance.new("TextLabel")
-MadeByLabel.Text = "twy<3"
-MadeByLabel.TextScaled = true
-MadeByLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-MadeByLabel.BackgroundTransparency = 0.3
-MadeByLabel.TextColor3 = Color3.new(1, 1, 1)
-MadeByLabel.BorderSizePixel = 0
-MadeByLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-MadeByLabel.Position = UDim2.new(1, 0, 1, 0)
-MadeByLabel.Size = UDim2.new(0.25, 0, 0.06, 0)
-Corner:Clone().Parent = MadeByLabel
-MadeByLabel.Parent = BackFrame
-local function openemotes(name, state, input)
-	if state == Enum.UserInputState.Begin then
-		ScreenGui.Enabled = not ScreenGui.Enabled
-	end
-end
-
-
-
-
-
 		-- same
 
 local function openemotes(name, state, input)
@@ -447,7 +421,6 @@ local customEmotes = {
 
     {Name = "SpongeBob Imaginaaation 🌈", Id = 18443268949, Price = 0, Index = 23},
     {Name = "HUGO Let's Drive!", Id = 17360720445, Price = 0, Index = 31},
-    {Name = "Elton John - Heart Shuffle", Id = 17748346932, Price = 0, Index = 28},
     {Name = "Paris Hilton - Checking My Angles", Id = 15392937495, Price = 0, Index = 76},
     {Name = "Paris Hilton - Iconic IT-Grrrl", Id = 15392932768, Price = 0, Index = 75},
     {Name = "Tommy K-Pop Mic Drop", Id = 14024722653, Price = 0, Index = 91},
@@ -463,6 +436,7 @@ local customEmotes = {
 	{Name = "Alo Yoga Pose - Lotus Position", Id = 12507097350, Price = 0, Index = 121},
     {Name = "Sturdy Dance - Ice Spice", Id = 17746270218, Price = 50, Index = 21},
 	{Name = "TWICE ABCD by Nayeon", Id = 18933761755, Price = 50, Index = 19},
+	{Name = "Arm Twist", Id = 9710992846, Price = 50, Index = 97},
 }
 
 
@@ -480,6 +454,16 @@ end
 
 --unreleased emotes
 AddEmote("intrusive awkward wave", 85665834724929)
+AddEmote("Spice On Floor", 126837474178236)
+AddEmote("hip sway", 80963950541052)
+AddEmote("Cat Nap", 105016815489641)
+AddEmote("Sweet Hug Pose V2", 79076692213299)
+AddEmote("Head Pat High", 120833029935011)
+AddEmote("Cute Hug Pose 1", 81874921102056)
+AddEmote("Hug", 90892690280238)
+AddEmote("Angry Idle", 91171596265030)
+AddEmote("cute shy withdrawn sit", 81204065393762)
+AddEmote("Making Face" , 89535391366809)
 
 
 --finished loading
